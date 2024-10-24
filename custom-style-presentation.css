@@ -1,0 +1,32 @@
+/* Réorganisation de l'interface */
+.geMenubarContainer,
+.geTabContainer,
+.geToolbarContainer {
+    border: none !important;
+    outline: none !important;
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+
+.geMenubarContainer,
+.geToolbarContainer,
+.geSidebarContainer {
+    display: none;
+}
+
+.geTabContainer {
+    top:0px !important;
+    height: 32px !important;
+}
+
+.geDiagramContainer {
+    left: 0 !important;
+    right: 0 !important;
+    top: 33px !important;
+    bottom: 0 !important;
+}
+
+.geDiagramContainer g,
+.geDiagramContainer g * {
+    pointer-events: none !important;
+}
