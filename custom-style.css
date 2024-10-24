@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --customBg: #252c34;
+    --customBgAlt: #1c2127;
+    --customColor: #ffffff;
+    --customActiveTab: #f1f3f4;
+    --customInactiveTab : var(--customBgAlt);
+}
+
+
+/* Modification de l'éditeur */
+body.geEditor {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    border: none;
+    margin: 0px;
+    
+}
+
+
+/* Réduction de l'entête */
+.geMenubarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.geButtonContainer,
+.geMenubarContainer > a,
+.geMenubarContainer > div:not(.geMenubar) {
+    display:none !important;
+}
+
+.geMenubarContainer .geMenubar {
+    position: initial !important;
+    padding: 0 !important;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    background-color: var(--customBg) !important;
+    color: white !important;
+}
+
+.geToolbarButton.geAdaptiveAsset {
+    filter: invert(1) brightness(2) contrast(2);
+}
+
+.geMenubarContainer .geMenubar a {
+    color: white !important;
+}
+
+.geMenubarContainer .geMenubar .geStatus {
+    margin-left: auto;
+    margin-right: 3.2rem;
+}
+
+.geToolbarContainer .geToolbar {
+    box-shadow: none;
+    border: none !important;
+}
+
+
+/* Transformer la barre d'état en barre d'onglet */
+body .geTabContainer {
+    width: 100%;
+    left: 0 !important;
+    right: 0 !important;
+    background-color: var(--customBgAlt) !important;
+    color: var(--customColor) !important;
+}
+
+body .geTabContainer .geAdaptiveAsset {
+    cursor: pointer !important;
+    filter: invert(1) brightness(2) contrast(2);
+    opacity: 80%;
+}
+
+body .geTabContainer .geAdaptiveAsset:hover {
+    opacity: 100%;
+}
+
+body .geTabContainer .geTab,
+body .geTabContainer .geTabScroller {
+    border : none !important;
+}
+
+body .geTabContainer .geToolbar {
+    display: none;
+}
+
+body .geTabContainer .geTabScroller {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 0 1rem;
+}
+
+body .geTabContainer .geTabScroller .geTab {
+    border: none !important;
+    border-radius: 8px 8px 0 0;
+    min-width: 96px;
+}
+
+body .geTabContainer .geTabScroller .geTab.geActivePage {
+    background-color: var(--customActiveTab) !important;
+}
+
+body .geTabContainer .geTabScroller .geTab.geInactivePage {
+    background-color: var(--customInactiveTab) !important;
+    color: var(--customColor) !important;
+}
+
+body .geTabContainer .geTabScroller .geTab.geInactivePage:hover {
+    cursor: pointer !important;
+}
+
+/* Réorganisation de l'interface */
+.geMenubarContainer,
+.geTabContainer,
+.geToolbarContainer {
+    border: none !important;
+    outline: none !important;
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+
+.geMenubarContainer {
+    top: 0px !important;
+    height: 32px !important;
+}
+
+.geTabContainer {
+    top:30px !important;
+    height: 32px !important;
+}
+
+.geToolbarContainer {
+    top: 62px !important;
+}
+/* Fix de la sidebar - Text */
+.geSidebarContainer.geFormatContainer .geToolbarContainer {
+    top: inherit !important;
+}
+
+.geSidebarContainer,
+.geDiagramContainer {
+    top: 96px !important;
+    bottom: 0 !important;
+}

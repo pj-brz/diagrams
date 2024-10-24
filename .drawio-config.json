@@ -56,7 +56,7 @@
                                 "main": "Workshops & Note-Taking",
                                 "fr": "Ateliers & Prise de Notes"
                             },
-                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Brainstorming.xml"
+                            "url": "https://raw.githubusercontent.com/pj-brz/diagrams/refs/heads/main/common-notes.xml"
                         }
                     ]
                 },
@@ -76,7 +76,7 @@
                                 "main": "Control Flow Diagrams",
                                 "fr": "Diagramme de Flux de Contrôle"
                             },
-                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Charte_Arkc.io.xml"
+                            "url": "https://raw.githubusercontent.com/pj-brz/diagrams/refs/heads/main/common-control-flow.xml"
                         }
                     ]
                 },
@@ -96,7 +96,7 @@
                                 "main": "Data Flow Diagrams",
                                 "fr": "Flux de Données"
                             },
-                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Charte_Arkc.io.xml"
+                            "url": "https://raw.githubusercontent.com/pj-brz/diagrams/refs/heads/main/common-data-flow.xml"
                         }
                     ]
                 },
@@ -116,7 +116,7 @@
                                 "main": "UML Modeling",
                                 "fr": "Modélisation UML"
                             },
-                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Charte_Arkc.io.xml"
+                            "url": "https://raw.githubusercontent.com/pj-brz/diagrams/refs/heads/main/common-uml.xml"
                         }
                     ]
                 },
@@ -136,7 +136,7 @@
                                 "main": "UI Mockups",
                                 "fr": "Maquettes d’IHM"
                             },
-                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Charte_Arkc.io.xml"
+                            "url": "https://raw.githubusercontent.com/pj-brz/diagrams/refs/heads/main/common-ui.xml"
                         }
                     ]
                 }
