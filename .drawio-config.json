@@ -1,0 +1,150 @@
+{
+    "defaultFonts": [
+        "Rawline",
+        "Helvetica",
+        "Garamond",
+        "Courier New"
+    ],
+    "defaultEdgeStyle": {
+        "strokeWidth": "1.6",
+        "strokeColor": "#8d9cad",
+        "jumpStyle": "8",
+        "jumpSize": "8",
+        "edgeStyle": "orthogonalEdgeStyle"
+    },
+    "defaultVertexStyle": {
+        "strokeWidth": "1.6",
+        "strokeColor": "#002364",
+        "fontColor": "#002364"
+    },
+    "presetColors": [
+        "002364", "D70064", "39A8E5", "00B4AA", null, "F08100", "5D2F88", "78D64B", null, "454E4F", "7F9398", "C6C2C5",
+        "334F83", "DF3383", "60B9EA", "33C3BB", null, "F39A33", "7D58A0", "93DE6F", null, "6A7172", "98A9AD", "D1CED1",
+        "667BA2", "E766A2", "88CBEF", "66D2CC", null, "F6B466", "9E82B8", "AEE793", null, "8F9595", "B2BEC1", "DDDADC",
+        "99A7C1", "EF99C1", "B0DCF5", "99E1DD", null, "F9CD99", "BEACCF", "C9EFB7", null, "B5B8B9", "CCD4D6", "E8E7E8",
+        "CCD3E0", "F7CCE0", "D7EEFA", "CCD3F0", null, "FCE6CC", "DFD5E7", "E4F7DB", null, "DADCDC", "E5E9EA", "F4F3F4",
+        null, null, null, null, null, null, null, null, null, null, null, null,
+        "043962", "176F98", "F8C76E", null, null, null, null, "887ED9", "D05B97", "D54566", "00BAFF", "3DCBD3",
+        "4A617D", "008BD2", "FEEB17", null, "8C8C9A", "CBEAF8", null, "B4B7ED", "D99BC4", "F0B1BD", "78DDFF", "7AE2E6",
+        "8D9CAD", "7DCAED", "FEF287", null, "CDCEDA", "DAE8F3", null, "E5E7FA", "F1D9EA", "FBE8EA", "CFF5FF", "D5F8F8",
+        "D2D7DE", "B2E0F5", "FFFFBA", null, "EBECF0", "EBF3F9", null, "F1F3FC", "FAF5F9", "FDF3F5", "EAFBFF", "EEFDFD"
+    ],
+    "gridColor": "#8d9cad",
+    "enableCustomLibraries": true,
+    "sidebarWidth": 280,
+    "thumbWidth": 38,
+    "thumbHeight": 38,
+    "libraries": [
+        {
+            "title": {
+                "main": "Pierre"
+            },
+            "entries": [
+                {
+                    "id": "common-notes",
+                    "title": {
+                        "main": "Workshops & Note-Taking",
+                        "fr": "Ateliers & Prise de Notes"
+                    },
+                    "desc": {
+                        "main": "A library of colorful sticky notes and stickers (WIP, to validate, validated, obsolete) to organize ideas and evaluate features. Ideal for brainstorming sessions, story mapping, and example mapping workshops.",
+                        "fr": "Bibliothèque de post-its colorés et stickers (WIP, à valider, validé, obsolète) pour organiser des idées et évaluer des fonctionnalités. Idéal pour des sessions de brainstorming, de story mapping et d'exemple mapping."
+                    },
+                    "libs": [
+                        {
+                            "title": {
+                                "main": "Workshops & Note-Taking",
+                                "fr": "Ateliers & Prise de Notes"
+                            },
+                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Brainstorming.xml"
+                        }
+                    ]
+                },
+                {
+                    "id": "common-control-flow",
+                    "title": {
+                        "main": "Control Flow Diagrams",
+                        "fr": "Diagramme de Flux de Contrôle"
+                    },
+                    "desc": {
+                        "main": "A simplified set of elements for creating workflow diagrams, focusing solely on process representation without delving into technical data specifics.",
+                        "fr": "Ensemble d'éléments simplifiés pour créer des diagrammes de flux de travail (workflow), axés uniquement sur la représentation des processus sans entrer dans les détails techniques des données."
+                    },
+                    "libs": [
+                        {
+                            "title": {
+                                "main": "Control Flow Diagrams",
+                                "fr": "Diagramme de Flux de Contrôle"
+                            },
+                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Charte_Arkc.io.xml"
+                        }
+                    ]
+                },
+                {
+                    "id": "common-data-flow",
+                    "title": {
+                        "main": "Data Flow Diagrams",
+                        "fr": "Flux de Données"
+                    },
+                    "desc": {
+                        "main": "A complementary library to control flow diagrams, helping to map data feeds and exchanges throughout the workflow.",
+                        "fr": "Bibliothèque complémentaire au flux de contrôle, permettant de cartographier les alimentations et échanges de données à travers le processus de workflow."
+                    },
+                    "libs": [
+                        {
+                            "title": {
+                                "main": "Data Flow Diagrams",
+                                "fr": "Flux de Données"
+                            },
+                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Charte_Arkc.io.xml"
+                        }
+                    ]
+                },
+                {
+                    "id": "common-uml",
+                    "title": {
+                        "main": "UML Modeling",
+                        "fr": "Modélisation UML"
+                    },
+                    "desc": {
+                        "main": "A selection of UML elements for occasional use, such as class diagrams and use case diagrams, to cover specific needs not addressed by BPMN.",
+                        "fr": "Sélection d'éléments UML pour la création ponctuelle de diagrammes de classe, de cas d’utilisation et d’autres diagrammes UML, répondant à des besoins spécifiques non couverts par BPMN."
+                    },
+                    "libs": [
+                        {
+                            "title": {
+                                "main": "UML Modeling",
+                                "fr": "Modélisation UML"
+                            },
+                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Charte_Arkc.io.xml"
+                        }
+                    ]
+                },
+                {
+                    "id": "common-ui",
+                    "title": {
+                        "main": "UI Mockups",
+                        "fr": "Maquettes d’IHM"
+                    },
+                    "desc": {
+                        "main": "A library of visual elements to quickly design user interface mockups, helping users visualize and project themselves into the proposed solutions.",
+                        "fr": "Bibliothèque d'éléments visuels pour rapidement concevoir des interfaces utilisateurs (IHM), permettant aux utilisateurs de visualiser et de se projeter dans les solutions envisagées."
+                    },
+                    "libs": [
+                        {
+                            "title": {
+                                "main": "UI Mockups",
+                                "fr": "Maquettes d’IHM"
+                            },
+                            "url": "https://raw.githubusercontent.com/pj-brz/community/refs/heads/main/Stylus/Diagrams/Librairies/Charte_Arkc.io.xml"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "defaultLibraries": "common-notes;common-control-flow;common-data-flow;common-uml;common-ui;general",
+    "enableChatGpt": true,
+    "gptModel": "GPT-4o mini",
+    "gptApiKey": ""
+}
