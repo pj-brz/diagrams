@@ -18,16 +18,499 @@
         "fontColor": "#002364"
     },
     "presetColors": [
-        "002364", "D70064", "39A8E5", "00B4AA", null, "F08100", "5D2F88", "78D64B", null, "454E4F", "7F9398", "C6C2C5",
-        "334F83", "DF3383", "60B9EA", "33C3BB", null, "F39A33", "7D58A0", "93DE6F", null, "6A7172", "98A9AD", "D1CED1",
-        "667BA2", "E766A2", "88CBEF", "66D2CC", null, "F6B466", "9E82B8", "AEE793", null, "8F9595", "B2BEC1", "DDDADC",
-        "99A7C1", "EF99C1", "B0DCF5", "99E1DD", null, "F9CD99", "BEACCF", "C9EFB7", null, "B5B8B9", "CCD4D6", "E8E7E8",
-        "CCD3E0", "F7CCE0", "D7EEFA", "CCD3F0", null, "FCE6CC", "DFD5E7", "E4F7DB", null, "DADCDC", "E5E9EA", "F4F3F4",
-        null, null, null, null, null, null, null, null, null, null, null, null,
-        "043962", "176F98", "F8C76E", null, null, null, null, "887ED9", "D05B97", "D54566", "00BAFF", "3DCBD3",
-        "4A617D", "008BD2", "FEEB17", null, "8C8C9A", "CBEAF8", null, "B4B7ED", "D99BC4", "F0B1BD", "78DDFF", "7AE2E6",
-        "8D9CAD", "7DCAED", "FEF287", null, "CDCEDA", "DAE8F3", null, "E5E7FA", "F1D9EA", "FBE8EA", "CFF5FF", "D5F8F8",
-        "D2D7DE", "B2E0F5", "FFFFBA", null, "EBECF0", "EBF3F9", null, "F1F3FC", "FAF5F9", "FDF3F5", "EAFBFF", "EEFDFD"
+        "002364",
+        "D70064",
+        "39A8E5",
+        "00B4AA",
+        null,
+        "F08100",
+        "5D2F88",
+        "78D64B",
+        null,
+        "454E4F",
+        "7F9398",
+        "C6C2C5",
+        "334F83",
+        "DF3383",
+        "60B9EA",
+        "33C3BB",
+        null,
+        "F39A33",
+        "7D58A0",
+        "93DE6F",
+        null,
+        "6A7172",
+        "98A9AD",
+        "D1CED1",
+        "667BA2",
+        "E766A2",
+        "88CBEF",
+        "66D2CC",
+        null,
+        "F6B466",
+        "9E82B8",
+        "AEE793",
+        null,
+        "8F9595",
+        "B2BEC1",
+        "DDDADC",
+        "99A7C1",
+        "EF99C1",
+        "B0DCF5",
+        "99E1DD",
+        null,
+        "F9CD99",
+        "BEACCF",
+        "C9EFB7",
+        null,
+        "B5B8B9",
+        "CCD4D6",
+        "E8E7E8",
+        "CCD3E0",
+        "F7CCE0",
+        "D7EEFA",
+        "ccf0ee",
+        null,
+        "FCE6CC",
+        "DFD5E7",
+        "E4F7DB",
+        null,
+        "DADCDC",
+        "E5E9EA",
+        "F4F3F4",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "043962",
+        "176F98",
+        "F8C76E",
+        null,
+        null,
+        null,
+        null,
+        "887ED9",
+        "D05B97",
+        "D54566",
+        "00BAFF",
+        "3DCBD3",
+        "4A617D",
+        "008BD2",
+        "FEEB17",
+        null,
+        "8C8C9A",
+        "CBEAF8",
+        null,
+        "B4B7ED",
+        "D99BC4",
+        "F0B1BD",
+        "78DDFF",
+        "7AE2E6",
+        "8D9CAD",
+        "7DCAED",
+        "FEF287",
+        null,
+        "CDCEDA",
+        "DAE8F3",
+        null,
+        "E5E7FA",
+        "F1D9EA",
+        "FBE8EA",
+        "CFF5FF",
+        "D5F8F8",
+        "D2D7DE",
+        "B2E0F5",
+        "FFFFBA",
+        null,
+        "EBECF0",
+        "EBF3F9",
+        null,
+        "F1F3FC",
+        "FAF5F9",
+        "FDF3F5",
+        "EAFBFF",
+        "EEFDFD"
+    ],
+    "defaultColorSchemes": [
+        [
+            {
+                "border": "none",
+                "stroke": "#fdfdfd",
+                "fill": "#fdfdfd",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#F7F4CF",
+                "fill": "#F7F4CF",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#FBE8EA",
+                "fill": "#FBE8EA",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#F6E5FA",
+                "fill": "#F6E5FA",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#EAEAEA",
+                "fill": "#EAEAEA",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#FAF5A6",
+                "fill": "#FAF5A6",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#FDECD2",
+                "fill": "#FDECD2",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#E5E7FA",
+                "fill": "#E5E7FA",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#F0F8FF",
+                "fill": "#F0F8FF",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#CFE5F7",
+                "fill": "#CFE5F7",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#D5F8F8",
+                "fill": "#D5F8F8",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#D2EBEF",
+                "fill": "#D2EBEF",
+                "font": "#000000"
+            }
+        ],
+        [
+            {
+                "border": "none",
+                "stroke": "#FFD966",
+                "fill": "#FFD966",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#80CAFF",
+                "fill": "#80CAFF",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#FFAFA3",
+                "fill": "#FFAFA3",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#E6E6E6",
+                "fill": "#E6E6E6",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#FFC470",
+                "fill": "#FFC470",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#85E0A3",
+                "fill": "#85E0A3",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#D9B8FF",
+                "fill": "#D9B8FF",
+                "font": "#000000"
+            },
+            {
+                "border": "none",
+                "stroke": "#AFBCCF",
+                "fill": "#AFBCCF",
+                "font": "#000000"
+            },
+            null
+        ],
+        [
+            {
+                "fill": "#ffffff",
+                "stroke": "#002364",
+                "font": "#002364"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#d70064",
+                "font": "#d70064"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#39a8e5",
+                "font": "#39a8e5"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#00b4aa",
+                "font": "#00b4aa"
+            },
+            {
+                "fill": "#002364",
+                "stroke": "#002364",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#d70064",
+                "stroke": "#d70064",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#39A8E5",
+                "stroke": "#39A8E5",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#00B4AA",
+                "stroke": "#00B4AA",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#667ba2",
+                "stroke": "#667ba2",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#e766a2",
+                "stroke": "#e766a2",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#88cbef",
+                "stroke": "#88cbef",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#66d2cc",
+                "stroke": "#66d2cc",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#ccd3e0",
+                "stroke": "#ccd3e0",
+                "font": "#002364"
+            },
+            {
+                "fill": "#f7cce0",
+                "stroke": "#f7cce0",
+                "font": "#D70064"
+            },
+            {
+                "fill": "#d7eefa",
+                "stroke": "#d7eefa",
+                "font": "#39a8e5"
+            },
+            {
+                "fill": "#ccf0ee",
+                "stroke": "#ccf0ee",
+                "font": "#00b4aa"
+            }
+        ],
+        [
+            {
+                "fill": "#ffffff",
+                "stroke": "#043962",
+                "font": "#043962"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#176f98",
+                "font": "#176f98"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#f8c76e",
+                "font": "#f8c76e"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#887ed9",
+                "font": "#887ed9"
+            },
+            {
+                "fill": "#043962",
+                "stroke": "#043962",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#176f98",
+                "stroke": "#176f98",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#f8c76e",
+                "stroke": "#f8c76e",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#887ed9",
+                "stroke": "#887ed9",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#4A617D",
+                "stroke": "#4A617D",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#008BD2",
+                "stroke": "#008BD2",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#FEEB17",
+                "stroke": "#FEEB17",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#B4B7ED",
+                "stroke": "#B4B7ED",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#D2D7DE",
+                "stroke": "#D2D7DE",
+                "font": "#043962"
+            },
+            {
+                "fill": "#B2E0F5",
+                "stroke": "#B2E0F5",
+                "font": "#176F98"
+            },
+            {
+                "fill": "#FFFFBA",
+                "stroke": "#FFFFBA",
+                "font": "#F8C76E"
+            },
+            {
+                "fill": "#F6E5FA",
+                "stroke": "#F6E5FA",
+                "font": "#887ED9"
+            }
+        ],
+        [
+            {
+                "fill": "#ffffff",
+                "stroke": "#D05B97",
+                "font": "#D05B97"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#D54566",
+                "font": "#D54566"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#00BAFF",
+                "font": "#00BAFF"
+            },
+            {
+                "fill": "#ffffff",
+                "stroke": "#3DCBD3",
+                "font": "#3DCBD3"
+            },
+            {
+                "fill": "#D05B97",
+                "stroke": "#D05B97",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#D54566",
+                "stroke": "#D54566",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#00BAFF",
+                "stroke": "#00BAFF",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#3DCBD3",
+                "stroke": "#3DCBD3",
+                "font": "#ffffff"
+            },
+            {
+                "fill": "#F1D9EA",
+                "stroke": "#F1D9EA",
+                "font": "#003366"
+            },
+            {
+                "fill": "#FBE8EA",
+                "stroke": "#FBE8EA",
+                "font": "#003366"
+            },
+            {
+                "fill": "#CFF5FF",
+                "stroke": "#CFF5FF",
+                "font": "#003366"
+            },
+            {
+                "fill": "#D5F8F8",
+                "stroke": "#D5F8F8",
+                "font": "#003366"
+            },
+            {
+                "fill": "#FAF5F9",
+                "stroke": "#FAF5F9",
+                "font": "#D05B97"
+            },
+            {
+                "fill": "#FDF3F5",
+                "stroke": "#FDF3F5",
+                "font": "#D54566"
+            },
+            {
+                "fill": "#EAFBFF",
+                "stroke": "#EAFBFF",
+                "font": "#00BAFF"
+            },
+            {
+                "fill": "#EEFDFD",
+                "stroke": "#EEFDFD",
+                "font": "#3DCBD3"
+            }
+        ]
     ],
     "gridColor": "#8d9cad",
     "enableCustomLibraries": true,
@@ -143,8 +626,9 @@
             ]
         }
     ],
-    "defaultLibraries": "common-notes;common-control-flow;common-data-flow;common-uml;common-ui;general",
-    "enableChatGpt": true,
+    "defaultLibraries": "general",
+    "defaultCustomLibraries": "common-notes;common-control-flow;common-data-flow;common-uml;common-ui",
+    "enableChatGpt": false,
     "gptModel": "GPT-4o mini",
     "gptApiKey": ""
 }
