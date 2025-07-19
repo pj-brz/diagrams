@@ -584,22 +584,22 @@
                     ]
                 },
                 {
-                    "id": "common-uml",
+                    "id": "common-uml-seq",
                     "title": {
-                        "main": "UML Modeling",
-                        "fr": "Modélisation UML"
+                        "main": "UML Modeling - Sequence",
+                        "fr": "Modélisation UML - Séquence"
                     },
                     "desc": {
-                        "main": "A selection of UML elements for occasional use, such as class diagrams and use case diagrams, to cover specific needs not addressed by BPMN.",
-                        "fr": "Sélection d'éléments UML pour la création ponctuelle de diagrammes de classe, de cas d’utilisation et d’autres diagrammes UML, répondant à des besoins spécifiques non couverts par BPMN."
+                        "main": "A library of UML elements for modeling sequence diagrams, useful for visualizing interactions between objects over time.",
+                        "fr": "Bibliothèque d'éléments UML pour modéliser des diagrammes de séquence, utile pour visualiser les interactions entre les objets dans le temps."
                     },
                     "libs": [
                         {
                             "title": {
-                                "main": "UML Modeling",
-                                "fr": "Modélisation UML"
+                                "main": "UML Modeling - Sequence",
+                                "fr": "Modélisation UML - Séquence"
                             },
-                            "url": "https://raw.githubusercontent.com/pj-brz/diagrams/refs/heads/main/common-uml.xml"
+                            "url": "https://raw.githubusercontent.com/pj-brz/diagrams/refs/heads/main/common-uml-sequence.xml"
                         }
                     ]
                 },
@@ -627,7 +627,7 @@
         }
     ],
     "defaultLibraries": "general",
-    "defaultCustomLibraries": "common-notes;common-control-flow;common-data-flow;common-uml;common-ui",
+    "defaultCustomLibraries": "common-notes;common-control-flow;common-data-flow;common-uml-seq;common-ui",
     "enableChatGpt": false,
     "gptModel": "GPT-4o mini",
     "gptApiKey": ""
